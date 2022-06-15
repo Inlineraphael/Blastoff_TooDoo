@@ -1,0 +1,53 @@
+.parent {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  border: solid 1px red;
+  text-align: center;
+  }
+  
+  .header { 
+  grid-area: 1 / 1 / 2 / 8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px red;
+}
+
+  .menu { 
+  grid-area: 2 / 1 / 4 / 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px red;
+}
+
+  .footer { 
+  grid-area: 3 / 3 / 4 / 8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px red;
+}
+
+  .main { 
+  grid-area: 2 / 3 / 3 / 6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px red;
+}
+  .right {
+  grid-area: 2 / 6 / 3 / 8; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px red;
+}
+
+menu li{
+  list-style: none;
+}
+
